@@ -1,0 +1,54 @@
+{
+    "category": "payment",
+    "display": "Tezos | Get Balance",
+    "fields": {
+        "AAN": {
+            "caption": "Address",
+            "default_val": "tz1h3rQ8wBxFd8L9B3d7Jhaawu6Z568XU3xY",
+            "doc": "For instance, tz1h3rQ8wBxFd8L9B3d7Jhaawu6Z568XU3xY.",
+            "editor": "DynamicValue",
+            "name": "tzAddress",
+            "rank": 2,
+            "value": "text"
+        },
+        "ACH": {
+            "caption": "Wallet Network",
+            "editor": "Dropdown",
+            "name": "walletNetwork",
+            "optional": true,
+            "options": "mainnet,florencenet",
+            "rank": 0
+        },
+        "ACI": {
+            "caption": "Wallet Network (Dynamic)",
+            "doc": "Dynamic expression.",
+            "editor": "DynamicValue",
+            "name": "walletNetworkDynamic",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAK": {
+            "caption": "Balance's amount",
+            "name": "resultNumber",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAL": {
+            "caption": "Balance's amount_formatted",
+            "name": "resultText",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Error's message",
+            "name": "errorMessage",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

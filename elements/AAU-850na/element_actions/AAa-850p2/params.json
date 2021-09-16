@@ -1,0 +1,31 @@
+{
+    "caption": "Connect to",
+    "doc": "",
+    "fields": {
+        "AAf": {
+            "caption": "App Name",
+            "default_val": "Bubble App",
+            "editor": "DynamicValue",
+            "name": "appName",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "Wallet Network",
+            "editor": "Dropdown",
+            "name": "walletNetwork",
+            "optional": true,
+            "options": "mainnet,florencenet",
+            "rank": 1
+        },
+        "AAi": {
+            "caption": "Wallet Network (Dynamic)",
+            "doc": "Dynamic expression.",
+            "editor": "DynamicValue",
+            "name": "walletNetworkDynamic",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

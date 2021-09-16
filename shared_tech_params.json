@@ -1,0 +1,28 @@
+{
+    "assets": {
+        "AAX": {
+            "name": "beacon_logo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1620946608373x523940187956281700/beacon_logo.svg"
+        },
+        "ACC": {
+            "name": "taquito.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1631545961942x732164026614377200/taquito.min.js"
+        },
+        "ACD": {
+            "name": "taquito-beacon-wallet.umd.js.map",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1631546053116x640609742839920300/taquito-beacon-wallet.umd.js.map"
+        },
+        "ACE": {
+            "name": "taquito-beacon-wallet.umd.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1631546149510x577893219564137700/taquito-beacon-wallet.umd.js"
+        },
+        "ACF": {
+            "name": "walletbeacon.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1631546213293x144545675285623780/walletbeacon.min.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 2,
+        "use_jquery": true
+    }
+}

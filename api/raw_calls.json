@@ -1,0 +1,140 @@
+{
+    "calls": {
+        "ABM": {
+            "doc_link": "https://api.tzkt.io/#operation/Operations_GetTransactionByHash",
+            "get_headers": false,
+            "initialized": true,
+            "method": "get",
+            "name": "Get a Transaction",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1616714647606x475341765543723000.plugin_api.ABM",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABM\":{\"caption\":\"Get a Transaction\",\"fields\":{\"_p_body\":{\"ret_value\":\"list.api.1616714647606x475341765543723000.plugin_api.ABM.body\",\"caption\":\"body\",\"path\":[\"body\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"[{\\\\\\\"type\\\\\\\":\\\\\\\"transaction\\\\\\\",\\\\\\\"id\\\\\\\":2105667,\\\\\\\"level\\\\\\\":199474,\\\\\\\"timestamp\\\\\\\":\\\\\\\"2021-05-21T13:42:01Z\\\\\\\",\\\\\\\"block\\\\\\\":\\\\\\\"BLpzz5qVAQfxPdBobJ2zWiLEQfwvED3G9G3HYMzniesxq5ESqf9\\\\\\\",\\\\\\\"hash\\\\\\\":\\\\\\\"op5KEK3nM9GTsHfLELvHSD8qjpGnZwytuNyQkh9Rf6y1kXKt5eb\\\\\\\",\\\\\\\"counter\\\\\\\":301407,\\\\\\\"sender\\\\\\\":{\\\\\\\"address\\\\\\\":\\\\\\\"tz1dWWroxPpM5ygRXZbdqhwavkUU5QpYd37L\\\\\\\"},\\\\\\\"gasLimit\\\\\\\":1527,\\\\\\\"gasUsed\\\\\\\":1427,\\\\\\\"storageLimit\\\\\\\":34,\\\\\\\"storageUsed\\\\\\\":0,\\\\\\\"bakerFee\\\\\\\":441,\\\\\\\"storageFee\\\\\\\":0,\\\\\\\"allocationFee\\\\\\\":0,\\\\\\\"target\\\\\\\":{\\\\\\\"address\\\\\\\":\\\\\\\"tz1Mbc6Lz8rdF8Q74bCjiEvi9oyi5BQ6LDNr\\\\\\\"},\\\\\\\"amount\\\\\\\":200000,\\\\\\\"status\\\\\\\":\\\\\\\"applied\\\\\\\",\\\\\\\"hasInternals\\\\\\\":false}]\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}},\"plugin_api.ABM.body\":{\"caption\":\"Get a Transaction body\",\"fields\":{\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"string\",\"path\":[\"type\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":0,\"path\":[\"id\"]},\"_p_level\":{\"ret_value\":\"number\",\"caption\":\"level\",\"sample_value\":0,\"path\":[\"level\"]},\"_p_timestamp\":{\"ret_value\":\"date\",\"caption\":\"timestamp\",\"sample_value\":\"2019-08-24T14:15:22Z\",\"path\":[\"timestamp\"]},\"_p_block\":{\"ret_value\":\"text\",\"caption\":\"block\",\"sample_value\":\"string\",\"path\":[\"block\"]},\"_p_hash\":{\"ret_value\":\"text\",\"caption\":\"hash\",\"sample_value\":\"string\",\"path\":[\"hash\"]},\"_p_counter\":{\"ret_value\":\"number\",\"caption\":\"counter\",\"sample_value\":0,\"path\":[\"counter\"]},\"_p_initiator.alias\":{\"ret_value\":\"text\",\"caption\":\"initiator alias\",\"sample_value\":\"string\",\"path\":[\"initiator\",\"alias\"]},\"_p_initiator.address\":{\"ret_value\":\"text\",\"caption\":\"initiator address\",\"sample_value\":\"string\",\"path\":[\"initiator\",\"address\"]},\"_p_sender.alias\":{\"ret_value\":\"text\",\"caption\":\"sender alias\",\"sample_value\":\"string\",\"path\":[\"sender\",\"alias\"]},\"_p_sender.address\":{\"ret_value\":\"text\",\"caption\":\"sender address\",\"sample_value\":\"string\",\"path\":[\"sender\",\"address\"]},\"_p_nonce\":{\"ret_value\":\"number\",\"caption\":\"nonce\",\"sample_value\":0,\"path\":[\"nonce\"]},\"_p_gasLimit\":{\"ret_value\":\"number\",\"caption\":\"gasLimit\",\"sample_value\":0,\"path\":[\"gasLimit\"]},\"_p_gasUsed\":{\"ret_value\":\"number\",\"caption\":\"gasUsed\",\"sample_value\":0,\"path\":[\"gasUsed\"]},\"_p_storageLimit\":{\"ret_value\":\"number\",\"caption\":\"storageLimit\",\"sample_value\":0,\"path\":[\"storageLimit\"]},\"_p_storageUsed\":{\"ret_value\":\"number\",\"caption\":\"storageUsed\",\"sample_value\":0,\"path\":[\"storageUsed\"]},\"_p_bakerFee\":{\"ret_value\":\"number\",\"caption\":\"bakerFee\",\"sample_value\":0,\"path\":[\"bakerFee\"]},\"_p_storageFee\":{\"ret_value\":\"number\",\"caption\":\"storageFee\",\"sample_value\":0,\"path\":[\"storageFee\"]},\"_p_allocationFee\":{\"ret_value\":\"number\",\"caption\":\"allocationFee\",\"sample_value\":0,\"path\":[\"allocationFee\"]},\"_p_target.alias\":{\"ret_value\":\"text\",\"caption\":\"target alias\",\"sample_value\":\"string\",\"path\":[\"target\",\"alias\"]},\"_p_target.address\":{\"ret_value\":\"text\",\"caption\":\"target address\",\"sample_value\":\"string\",\"path\":[\"target\",\"address\"]},\"_p_amount\":{\"ret_value\":\"number\",\"caption\":\"amount\",\"sample_value\":0,\"path\":[\"amount\"]},\"_p_parameter.entrypoint\":{\"ret_value\":\"text\",\"caption\":\"parameter entrypoint\",\"sample_value\":\"string\",\"path\":[\"parameter\",\"entrypoint\"]},\"_p_parameter.value\":{\"ret_value\":\"text\",\"caption\":\"parameter value\",\"sample_value\":null,\"path\":[\"parameter\",\"value\"]},\"_p_storage\":{\"ret_value\":\"text\",\"caption\":\"storage\",\"sample_value\":null,\"path\":[\"storage\"]},\"_p_diffs\":{\"ret_value\":\"list.api.1616714647606x475341765543723000.plugin_api.ABM.diffs\",\"caption\":\"diffs\",\"path\":[\"diffs\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"string\",\"path\":[\"status\"]},\"_p_errors\":{\"ret_value\":\"list.api.1616714647606x475341765543723000.plugin_api.ABM.errors\",\"caption\":\"errors\",\"path\":[\"errors\"]},\"_p_hasInternals\":{\"ret_value\":\"boolean\",\"caption\":\"hasInternals\",\"sample_value\":true,\"path\":[\"hasInternals\"]},\"_p_quote.btc\":{\"ret_value\":\"number\",\"caption\":\"quote btc\",\"sample_value\":0,\"path\":[\"quote\",\"btc\"]},\"_p_quote.eur\":{\"ret_value\":\"number\",\"caption\":\"quote eur\",\"sample_value\":0,\"path\":[\"quote\",\"eur\"]},\"_p_quote.usd\":{\"ret_value\":\"number\",\"caption\":\"quote usd\",\"sample_value\":0,\"path\":[\"quote\",\"usd\"]},\"_p_quote.cny\":{\"ret_value\":\"number\",\"caption\":\"quote cny\",\"sample_value\":0,\"path\":[\"quote\",\"cny\"]},\"_p_quote.jpy\":{\"ret_value\":\"number\",\"caption\":\"quote jpy\",\"sample_value\":0,\"path\":[\"quote\",\"jpy\"]},\"_p_quote.krw\":{\"ret_value\":\"number\",\"caption\":\"quote krw\",\"sample_value\":0,\"path\":[\"quote\",\"krw\"]},\"_p_quote.eth\":{\"ret_value\":\"number\",\"caption\":\"quote eth\",\"sample_value\":0,\"path\":[\"quote\",\"eth\"]}}},\"plugin_api.ABM.diffs\":{\"caption\":\"Get a Transaction diff\",\"fields\":{\"_p_bigmap\":{\"ret_value\":\"number\",\"caption\":\"bigmap\",\"sample_value\":0,\"path\":[\"bigmap\"]},\"_p_path\":{\"ret_value\":\"text\",\"caption\":\"path\",\"sample_value\":\"string\",\"path\":[\"path\"]},\"_p_action\":{\"ret_value\":\"text\",\"caption\":\"action\",\"sample_value\":\"string\",\"path\":[\"action\"]},\"_p_content.hash\":{\"ret_value\":\"text\",\"caption\":\"content hash\",\"sample_value\":\"string\",\"path\":[\"content\",\"hash\"]},\"_p_content.key\":{\"ret_value\":\"text\",\"caption\":\"content key\",\"sample_value\":null,\"path\":[\"content\",\"key\"]},\"_p_content.value\":{\"ret_value\":\"text\",\"caption\":\"content value\",\"sample_value\":null,\"path\":[\"content\",\"value\"]}}},\"plugin_api.ABM.errors\":{\"caption\":\"Get a Transaction error\",\"fields\":{\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"string\",\"path\":[\"type\"]}}}}",
+            "url": "https://[path]/operations/[transaction_id]",
+            "url_params": {
+                "ABU": {
+                    "allow_blank": false,
+                    "key": "path",
+                    "private": true,
+                    "value": "api.florencenet.tzkt.io/v1"
+                },
+                "ABV": {
+                    "allow_blank": true,
+                    "key": "transaction_id",
+                    "private": true,
+                    "value": "op5KEK3nM9GTsHfLELvHSD8qjpGnZwytuNyQkh9Rf6y1kXKt5eb"
+                }
+            },
+            "wrap_error": true
+        },
+        "ABW": {
+            "doc_link": "https://api.tzkt.io/#operation/Operations_GetTransactions",
+            "initialized": true,
+            "method": "get",
+            "name": "List Transactions",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1616714647606x475341765543723000.plugin_api.ABW",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABW\":{\"caption\":\"List Transaction\",\"fields\":{\"_p_body\":{\"ret_value\":\"list.api.1616714647606x475341765543723000.plugin_api.ABW.body\",\"caption\":\"body\",\"path\":[\"body\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}},\"plugin_api.ABW.body\":{\"caption\":\"List Transactions body\",\"fields\":{\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"string\",\"path\":[\"type\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":0,\"path\":[\"id\"]},\"_p_level\":{\"ret_value\":\"number\",\"caption\":\"level\",\"sample_value\":0,\"path\":[\"level\"]},\"_p_timestamp\":{\"ret_value\":\"date\",\"caption\":\"timestamp\",\"sample_value\":\"2019-08-24T14:15:22Z\",\"path\":[\"timestamp\"]},\"_p_block\":{\"ret_value\":\"text\",\"caption\":\"block\",\"sample_value\":\"string\",\"path\":[\"block\"]},\"_p_hash\":{\"ret_value\":\"text\",\"caption\":\"hash\",\"sample_value\":\"string\",\"path\":[\"hash\"]},\"_p_counter\":{\"ret_value\":\"number\",\"caption\":\"counter\",\"sample_value\":0,\"path\":[\"counter\"]},\"_p_initiator.alias\":{\"ret_value\":\"text\",\"caption\":\"initiator alias\",\"sample_value\":\"string\",\"path\":[\"initiator\",\"alias\"]},\"_p_initiator.address\":{\"ret_value\":\"text\",\"caption\":\"initiator address\",\"sample_value\":\"string\",\"path\":[\"initiator\",\"address\"]},\"_p_sender.alias\":{\"ret_value\":\"text\",\"caption\":\"sender alias\",\"sample_value\":\"string\",\"path\":[\"sender\",\"alias\"]},\"_p_sender.address\":{\"ret_value\":\"text\",\"caption\":\"sender address\",\"sample_value\":\"string\",\"path\":[\"sender\",\"address\"]},\"_p_nonce\":{\"ret_value\":\"number\",\"caption\":\"nonce\",\"sample_value\":0,\"path\":[\"nonce\"]},\"_p_gasLimit\":{\"ret_value\":\"number\",\"caption\":\"gasLimit\",\"sample_value\":0,\"path\":[\"gasLimit\"]},\"_p_gasUsed\":{\"ret_value\":\"number\",\"caption\":\"gasUsed\",\"sample_value\":0,\"path\":[\"gasUsed\"]},\"_p_storageLimit\":{\"ret_value\":\"number\",\"caption\":\"storageLimit\",\"sample_value\":0,\"path\":[\"storageLimit\"]},\"_p_storageUsed\":{\"ret_value\":\"number\",\"caption\":\"storageUsed\",\"sample_value\":0,\"path\":[\"storageUsed\"]},\"_p_bakerFee\":{\"ret_value\":\"number\",\"caption\":\"bakerFee\",\"sample_value\":0,\"path\":[\"bakerFee\"]},\"_p_storageFee\":{\"ret_value\":\"number\",\"caption\":\"storageFee\",\"sample_value\":0,\"path\":[\"storageFee\"]},\"_p_allocationFee\":{\"ret_value\":\"number\",\"caption\":\"allocationFee\",\"sample_value\":0,\"path\":[\"allocationFee\"]},\"_p_target.alias\":{\"ret_value\":\"text\",\"caption\":\"target alias\",\"sample_value\":\"string\",\"path\":[\"target\",\"alias\"]},\"_p_target.address\":{\"ret_value\":\"text\",\"caption\":\"target address\",\"sample_value\":\"string\",\"path\":[\"target\",\"address\"]},\"_p_amount\":{\"ret_value\":\"number\",\"caption\":\"amount\",\"sample_value\":0,\"path\":[\"amount\"]},\"_p_parameter.entrypoint\":{\"ret_value\":\"text\",\"caption\":\"parameter entrypoint\",\"sample_value\":\"string\",\"path\":[\"parameter\",\"entrypoint\"]},\"_p_parameter.value\":{\"ret_value\":\"text\",\"caption\":\"parameter value\",\"sample_value\":null,\"path\":[\"parameter\",\"value\"]},\"_p_storage\":{\"ret_value\":\"text\",\"caption\":\"storage\",\"sample_value\":null,\"path\":[\"storage\"]},\"_p_diffs\":{\"ret_value\":\"list.api.1616714647606x475341765543723000.plugin_api.ABW.diffs\",\"caption\":\"diffs\",\"path\":[\"diffs\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"string\",\"path\":[\"status\"]},\"_p_errors\":{\"ret_value\":\"list.api.1616714647606x475341765543723000.plugin_api.ABW.errors\",\"caption\":\"errors\",\"path\":[\"errors\"]},\"_p_hasInternals\":{\"ret_value\":\"boolean\",\"caption\":\"hasInternals\",\"sample_value\":true,\"path\":[\"hasInternals\"]},\"_p_quote.btc\":{\"ret_value\":\"number\",\"caption\":\"quote btc\",\"sample_value\":0,\"path\":[\"quote\",\"btc\"]},\"_p_quote.eur\":{\"ret_value\":\"number\",\"caption\":\"quote eur\",\"sample_value\":0,\"path\":[\"quote\",\"eur\"]},\"_p_quote.usd\":{\"ret_value\":\"number\",\"caption\":\"quote usd\",\"sample_value\":0,\"path\":[\"quote\",\"usd\"]},\"_p_quote.cny\":{\"ret_value\":\"number\",\"caption\":\"quote cny\",\"sample_value\":0,\"path\":[\"quote\",\"cny\"]},\"_p_quote.jpy\":{\"ret_value\":\"number\",\"caption\":\"quote jpy\",\"sample_value\":0,\"path\":[\"quote\",\"jpy\"]},\"_p_quote.krw\":{\"ret_value\":\"number\",\"caption\":\"quote krw\",\"sample_value\":0,\"path\":[\"quote\",\"krw\"]},\"_p_quote.eth\":{\"ret_value\":\"number\",\"caption\":\"quote eth\",\"sample_value\":0,\"path\":[\"quote\",\"eth\"]}}},\"plugin_api.ABW.diffs\":{\"caption\":\"List Transactions diff\",\"fields\":{\"_p_bigmap\":{\"ret_value\":\"number\",\"caption\":\"bigmap\",\"sample_value\":0,\"path\":[\"bigmap\"]},\"_p_path\":{\"ret_value\":\"text\",\"caption\":\"path\",\"sample_value\":\"string\",\"path\":[\"path\"]},\"_p_action\":{\"ret_value\":\"text\",\"caption\":\"action\",\"sample_value\":\"string\",\"path\":[\"action\"]},\"_p_content.hash\":{\"ret_value\":\"text\",\"caption\":\"content hash\",\"sample_value\":\"string\",\"path\":[\"content\",\"hash\"]},\"_p_content.key\":{\"ret_value\":\"text\",\"caption\":\"content key\",\"sample_value\":null,\"path\":[\"content\",\"key\"]},\"_p_content.value\":{\"ret_value\":\"text\",\"caption\":\"content value\",\"sample_value\":null,\"path\":[\"content\",\"value\"]}}},\"plugin_api.ABW.errors\":{\"caption\":\"List Transactions error\",\"fields\":{\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"string\",\"path\":[\"type\"]}}}}",
+            "url": "https://[path]/operations/transactions?initiator=[initiator]&sender=[sender]&target=[target]&amount=[amount]&level=[level]&timestamp=[timestamp]&entrypoint=[entrypoint]&status=[status]&sort.asc=[sort.asc]&sort.desc=[sort.desc]&limit=[limit]&offset.pg=[offset.page]&quote=[quote]",
+            "url_params": {
+                "ABg": {
+                    "key": "path",
+                    "private": true,
+                    "value": "api.florencenet.tzkt.io/v1"
+                },
+                "ABh": {
+                    "allow_blank": false,
+                    "doc": "Filters transactions by initiator.",
+                    "key": "initiator",
+                    "private": true,
+                    "value": ""
+                },
+                "ABi": {
+                    "allow_blank": false,
+                    "doc": "Filters transactions by sender.",
+                    "key": "sender",
+                    "private": true,
+                    "value": ""
+                },
+                "ABj": {
+                    "allow_blank": false,
+                    "doc": "Filters transactions by target.",
+                    "key": "target",
+                    "private": true,
+                    "value": ""
+                },
+                "ABk": {
+                    "allow_blank": false,
+                    "doc": "Filters transactions by amount (microtez).",
+                    "key": "amount",
+                    "private": true,
+                    "value": ""
+                },
+                "ABl": {
+                    "allow_blank": false,
+                    "doc": "Filters transactions by level.",
+                    "key": "level",
+                    "private": true,
+                    "value": ""
+                },
+                "ABm": {
+                    "allow_blank": false,
+                    "doc": "Filters transactions by timestamp.\n\nExample: 2020-02-20T02:40:57Z.\n",
+                    "key": "timestamp",
+                    "private": true,
+                    "value": ""
+                },
+                "ABn": {
+                    "allow_blank": false,
+                    "doc": "Filters transactions by entrypoint called on the target contract.",
+                    "key": "entrypoint",
+                    "private": true,
+                    "value": ""
+                },
+                "ABo": {
+                    "allow_blank": false,
+                    "doc": "Filters transactions by operation status (applied, failed, backtracked, skipped).",
+                    "key": "status",
+                    "private": true,
+                    "value": ""
+                },
+                "ABp": {
+                    "doc": "Sorts transactions by specified field. Ascending sort mode.",
+                    "key": "sort.asc",
+                    "private": true,
+                    "value": "id"
+                },
+                "ABq": {
+                    "doc": "Sorts transactions by specified field. Descending sort mode.",
+                    "key": "sort.desc",
+                    "private": true,
+                    "value": "amount"
+                },
+                "ABr": {
+                    "doc": "Maximum number of items to return.",
+                    "key": "limit",
+                    "private": true,
+                    "value": "25"
+                },
+                "ABs": {
+                    "doc": "Skips \"page * limit\" elements.",
+                    "key": "offset.page",
+                    "private": true,
+                    "value": "0"
+                },
+                "ABt": {
+                    "allow_blank": false,
+                    "doc": "Comma-separated list of ticker symbols to inject historical prices into response.",
+                    "key": "quote",
+                    "private": true,
+                    "value": "usd"
+                }
+            },
+            "wrap_error": true
+        }
+    },
+    "human": "Tezos"
+}

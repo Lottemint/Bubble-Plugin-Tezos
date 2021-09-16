@@ -1,0 +1,20 @@
+{
+    "caption": "Make a Transfer using",
+    "doc": "",
+    "fields": {
+        "ABC": {
+            "caption": "Address",
+            "editor": "DynamicValue",
+            "name": "address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABD": {
+            "caption": "Amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 1,
+            "value": "number"
+        }
+    }
+}
