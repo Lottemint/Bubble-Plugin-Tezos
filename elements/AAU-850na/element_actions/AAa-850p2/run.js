@@ -55,7 +55,7 @@ function(instance, properties, context) {
             rpcUrl = `${constants.justThings.https}${rpcUrl}`
         }
 
-        
+
         instance.data.rpcUrl = rpcUrl;
 
         instance.data.Tezos = new TezosToolkit(rpcUrl);

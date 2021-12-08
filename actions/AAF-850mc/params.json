@@ -13,10 +13,11 @@
         },
         "ACH": {
             "caption": "Wallet Network",
+            "doc": "",
             "editor": "Dropdown",
             "name": "walletNetwork",
             "optional": true,
-            "options": "mainnet,florencenet",
+            "options": "mainnet,hangzhounet",
             "rank": 0
         },
         "ACI": {

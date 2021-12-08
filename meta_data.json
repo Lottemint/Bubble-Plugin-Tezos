@@ -7,7 +7,7 @@
     "description": "Add the blockchain plugin to your bubble.io app.",
     "image": "//s3.amazonaws.com/appforest_uf/f1616714681375x824218522185019100/logo-tezos.svg",
     "license": "open_source",
-    "link": "https://mintflow.notion.site/b4642c8cedf84773a2d7820e0f38d57a",
-    "name": "Tezos",
-    "plugin_instructions": "Demo App:\nhttps://tezos.bubbleapps.io/version-test\n\nEditor:\nhttps://bubble.io/page?type=page&name=index&id=tezos&tab=tabs-1\n\nDocumentation:\nhttps://mintflow.notion.site/b4642c8cedf84773a2d7820e0f38d57a"
+    "link": "https://mintflow.notion.site/Tezos-Plugin-for-Bubble-io-1ac062b7b35841c7a0ca6363e9e396ad",
+    "name": "Tezos Blockchain",
+    "plugin_instructions": "Demo App:\nhttps://tezos.bubbleapps.io/version-test\n\nEditor:\nhttps://bubble.io/page?type=page&name=index&id=tezos&tab=tabs-1\n\nDocumentation:\nhttps://mintflow.notion.site/Tezos-Plugin-for-Bubble-io-1ac062b7b35841c7a0ca6363e9e396ad"
 }

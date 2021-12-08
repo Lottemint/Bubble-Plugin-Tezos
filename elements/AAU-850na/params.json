@@ -20,11 +20,11 @@
             "value": "text"
         },
         "ACA": {
-            "caption": "RPC | Florencenet",
-            "default_val": "florencenet.api.tez.ie",
+            "caption": "RPC | Sandbox",
+            "default_val": "hangzhounet.api.tez.ie",
             "doc": "",
             "editor": "DynamicValue",
-            "name": "rpcUrlFlorencenet",
+            "name": "rpcUrlSandboxNetwork",
             "rank": 1,
             "value": "text"
         }
@@ -53,6 +53,7 @@
         },
         "ABE": {
             "caption": "Transfer's address_target",
+            "doc": "",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"
             },

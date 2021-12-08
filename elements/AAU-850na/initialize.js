@@ -147,8 +147,8 @@ function(instance, context) {
             mainnet: {
                 id: 'mainnet'
             },
-            florencenet: {
-                id: 'florencenet'
+            sandbox: {
+                id: 'hangzhounet'
             }
         },
         tzExplorerAPI: {
@@ -167,24 +167,24 @@ function(instance, context) {
                     browser: 'https://tzkt.io/',
                     api: 'https://api.tzkt.io/v1/',
                 },
-                florencenet: {
-                    browser: 'https://florencenet.tzkt.io/',
-                    api: 'https://api.florencenet.tzkt.io/v1/',
+                hangzhounet: {
+                    browser: 'https://hangzhounet.tzkt.io/',
+                    api: 'https://api.hangzhounet.tzkt.io/v1/',
                 }
             },
             taquitoMin: {
                 lookBy: 'taquito',
-                url: '//dd7tel2830j4w.cloudfront.net/f1631545961942x732164026614377200/taquito.min.js',
+                url: '//dd7tel2830j4w.cloudfront.net/f1638978808122x257136835123522140/taquito.min.js',
                 responseType: 'script'
             },
             taquitoBeaconWallet: {
                 lookBy: 'taquitoBeaconWallet',
-                url: '//dd7tel2830j4w.cloudfront.net/f1631546149510x577893219564137700/taquito-beacon-wallet.umd.js',
+                url: '//dd7tel2830j4w.cloudfront.net/f1638979044236x672701842478773100/taquito-beacon-wallet.umd.js',
                 responseType: 'script'
             },
             walletbeaconMin: {
                 lookBy: 'beacon',
-                url: '//dd7tel2830j4w.cloudfront.net/f1631546213293x144545675285623780/walletbeacon.min.js',
+                url: '//dd7tel2830j4w.cloudfront.net/f1638978891106x951279138406191400/walletbeacon.min.js',
                 responseType: 'script'
             }
         },
@@ -403,13 +403,13 @@ code
 
     let handleProps = (props) => {
 
-        let {rpcUrlMainnet, rpcUrlFlorencenet} = props;
+        let {rpcUrlMainnet, rpcUrlSandboxNetwork} = props;
         let rpcUrlMainnet_ = instance.data.rpcUrlMainnet;
-        let rpcUrlFlorencenet_ = instance.data.rpcUrlFlorencenet;
+        let rpcUrlSandboxNetwork_ = instance.data.rpcUrlSandboxNetwork;
 
         let requiresHardReset = false;
 
-        if (rpcUrlMainnet_ || rpcUrlFlorencenet_) {
+        if (rpcUrlMainnet_ || rpcUrlSandboxNetwork_) {
 
             requiresHardReset = true;
         }
@@ -420,7 +420,7 @@ code
         }
 
         instance.data.rpcUrlMainnet = rpcUrlMainnet;
-        instance.data.rpcUrlFlorencenet = rpcUrlFlorencenet
+        instance.data.rpcUrlSandboxNetwork = rpcUrlSandboxNetwork
     };
     instance.data.handleProps = handleProps;
 
