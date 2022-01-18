@@ -519,8 +519,8 @@ code
 
         resetConnect();
         resetTransfer();
-        resetContract();
-        resetFA2Transfer()
+        // resetContract();
+        // resetFA2Transfer()
     };
     instance.data.fullReset = fullReset
 }

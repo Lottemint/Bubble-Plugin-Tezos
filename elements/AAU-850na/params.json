@@ -115,55 +115,6 @@
             },
             "name": "transferURLAPI",
             "value": "text"
-        },
-        "ACO": {
-            "caption": "Contract's Status's message",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\n\n\n}"
-            },
-            "name": "contractStatusMessage",
-            "value": "text"
-        },
-        "ACP": {
-            "caption": "Contract's address",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\n\n\n}"
-            },
-            "name": "contractAddress",
-            "value": "text"
-        },
-        "ACQ": {
-            "caption": "Contract's Error's message",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\n\n\n}"
-            },
-            "name": "contractErrorMessage",
-            "value": "text"
-        },
-        "ACR": {
-            "caption": "Contract's URL",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\n\n\n}"
-            },
-            "name": "contractURL",
-            "value": "text"
-        },
-        "ACS": {
-            "caption": "Contract's URL API",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\n\n\n}"
-            },
-            "name": "contractURLAPI",
-            "value": "text"
-        },
-        "ACT": {
-            "caption": "Contract's status",
-            "doc": "",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\n\n\n}"
-            },
-            "name": "contractStatus",
-            "value": "text"
         }
     },
     "support_autobinding": false

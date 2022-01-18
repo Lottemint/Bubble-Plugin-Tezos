@@ -35,8 +35,8 @@ function(properties, context) {
             mainnet: {
                 id: 'mainnet'
             },
-            florencenet: {
-                id: 'florencenet'
+            hangzhounet: {
+                id: 'hangzhounet'
             }
         }
     };

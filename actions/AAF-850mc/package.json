@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "@taquito/taquito": "^9.2.0",
+        "@taquito/taquito": "^11.0.2",
         "deasync": "^0.1.23"
     }
 }
